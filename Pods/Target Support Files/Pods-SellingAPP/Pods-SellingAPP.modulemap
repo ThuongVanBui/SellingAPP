@@ -1,0 +1,6 @@
+framework module Pods_SellingAPP {
+  umbrella header "Pods-SellingAPP-umbrella.h"
+
+  export *
+  module * { export * }
+}
