@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D2CAB9C20724F7000225912 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2CAB9D20724F7000225912 /* Alamofire.framework */; };
 		2D2CAB9F2073729000225912 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2CAB9E2073729000225912 /* ProfileViewController.swift */; };
 		2D569815206F6D8700A358B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D569814206F6D8700A358B1 /* AppDelegate.swift */; };
 		2D56981A206F6D8700A358B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D569818206F6D8700A358B1 /* Main.storyboard */; };
@@ -20,6 +19,9 @@
 		2D569847206F7ADE00A358B1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D569846206F7ADE00A358B1 /* StartViewController.swift */; };
 		2D56984C2071211D00A358B1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56984B2071211D00A358B1 /* RegisterViewController.swift */; };
 		2DE85B22207773FE003722E6 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE85B21207773FE003722E6 /* LaunchScreenViewController.swift */; };
+		2DF12DE420832C46001DFCB9 /* khuVuc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF12DE320832C46001DFCB9 /* khuVuc.swift */; };
+		2DF12DE620838E56001DFCB9 /* postSellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF12DE520838E56001DFCB9 /* postSellViewController.swift */; };
+		2DF12DE72085957F001DFCB9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF12DE82085957F001DFCB9 /* Alamofire.framework */; };
 		2DF20BCF2074CBCB00CBDF42 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF20BD02074CBCB00CBDF42 /* SwiftyJSON.framework */; };
 		D68989BD9A4672B9201F4695 /* Pods_SellingAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FED6F47530F390F4AD1862 /* Pods_SellingAPP.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +64,9 @@
 		2D569846206F7ADE00A358B1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		2D56984B2071211D00A358B1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		2DE85B21207773FE003722E6 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		2DF12DE320832C46001DFCB9 /* khuVuc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khuVuc.swift; sourceTree = "<group>"; };
+		2DF12DE520838E56001DFCB9 /* postSellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postSellViewController.swift; sourceTree = "<group>"; };
+		2DF12DE82085957F001DFCB9 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF20BD02074CBCB00CBDF42 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FED6F47530F390F4AD1862 /* Pods_SellingAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellingAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AB1D92DD274F19F90C2B03 /* Pods-SellingAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellingAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-SellingAPP/Pods-SellingAPP.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,8 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF12DE72085957F001DFCB9 /* Alamofire.framework in Frameworks */,
 				2DF20BCF2074CBCB00CBDF42 /* SwiftyJSON.framework in Frameworks */,
-				2D2CAB9C20724F7000225912 /* Alamofire.framework in Frameworks */,
 				D68989BD9A4672B9201F4695 /* Pods_SellingAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +103,7 @@
 		20C4CAC2148BF5D91AFA17DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DF12DE82085957F001DFCB9 /* Alamofire.framework */,
 				2DF20BD02074CBCB00CBDF42 /* SwiftyJSON.framework */,
 				2D2CAB9D20724F7000225912 /* Alamofire.framework */,
 				99FED6F47530F390F4AD1862 /* Pods_SellingAPP.framework */,
@@ -160,6 +166,7 @@
 		2D569848206FAE1C00A358B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2DF12DE320832C46001DFCB9 /* khuVuc.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +181,7 @@
 				2D56984B2071211D00A358B1 /* RegisterViewController.swift */,
 				2D2CAB9E2073729000225912 /* ProfileViewController.swift */,
 				2DE85B21207773FE003722E6 /* LaunchScreenViewController.swift */,
+				2DF12DE520838E56001DFCB9 /* postSellViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -390,10 +398,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2CAB9F2073729000225912 /* ProfileViewController.swift in Sources */,
+				2DF12DE620838E56001DFCB9 /* postSellViewController.swift in Sources */,
 				2D569843206F79F500A358B1 /* LoginViewController.swift in Sources */,
 				2D56984C2071211D00A358B1 /* RegisterViewController.swift in Sources */,
 				2D569847206F7ADE00A358B1 /* StartViewController.swift in Sources */,
 				2D569815206F6D8700A358B1 /* AppDelegate.swift in Sources */,
+				2DF12DE420832C46001DFCB9 /* khuVuc.swift in Sources */,
 				2D569845206F7A3F00A358B1 /* HomeViewController.swift in Sources */,
 				2DE85B22207773FE003722E6 /* LaunchScreenViewController.swift in Sources */,
 			);

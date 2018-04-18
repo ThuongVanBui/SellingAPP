@@ -18,7 +18,8 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var sdtTextField: UITextField!
     @IBOutlet weak var diachiTextField: UITextField!
     
-
+    @IBOutlet weak var registerButtonOption: UIButton!
+    
     
     let url_DangKy = "http://localhost:8888/Webservice/api/Register.php"
     
@@ -26,6 +27,9 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
         matkhauTextField.isSecureTextEntry = true
         nhaplaimatkhauTextField.isSecureTextEntry = true
+        registerButtonOption.layer.borderWidth = 1.0
+        registerButtonOption.layer.cornerRadius = 5.0
+        registerButtonOption.layer.borderColor = UIColor.white.cgColor
         // Do any additional setup after loading the view.
     }
 
